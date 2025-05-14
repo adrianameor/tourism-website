@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <title>Introduction</title>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="newstyle.css" rel="stylesheet">
+  <style> 
+    body.photoslider {box-sizing: border-box}
+    .mySlides1, .mySlides2, .mySlides3 {display: none}
+    img.imageslider {
+      vertical-align: middle;
+      height: 400px;
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      top: 60px;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 33%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      background-color: grey;
+      opacity: 0.7;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: bottom;
+    bottom: 8px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  div.numbertext{
+      top: 20px;
+    }
+
+/* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: gray;
+    opacity: 0.7;
+  }
+
+  </style>
+  </head>
+  <body class="photoslider"> 
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="credit.html">Credits</a></li>
+        </ul>
+    </div>
+    
+    <h2 style="text-align:center" class="introductionslider">Introduction</h2>
+
+    <p class="introductionslider">History:</p>
+    <div class="slideshow-container">
+      <div class="mySlides1 fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="./img/church.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Sct. Laurentii church in the region of Vendsyssel was built in the second half of the 14th century and was at 
+            that time the largest church in Northern Jutland. Over time, the church has been covered in drifting sand, 
+            and today only the tower is visible.</p></div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="./img/stone.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">This rune stone in the town of Jelling is often called "Denmark's birth certificate". The stone was raised in 
+            the 10th century by King Harald Bluetooth in remembrance of his parents Gorm the Old and Thyra, and in celebration of 
+            his successful introduction of Christianity in Denmark. It is the first time the name "Denmark" is registered in 
+            writing.</p></div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="./img/bunker.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">During World War ll, the  Germans built around 2,000 bunkers as part of their Atlantic Wall. 
+            One of them is this bunker, Vigso.</p></div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="./img/stonedolmen.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Stone Dolmen near Vinstrup, Norhald. Built in the 3rd millennium BC. Archaeologists still do not know who erected 
+            these dolmens, which makes it difficult to know why they did it. They are generally all regarded as tombs or burial chambers, 
+            despite the absence of clear evidence for this. Human remains, sometimes 
+            accompanied by artefacts, have been found in or close to the dolmens which could be scientifically dated using radiocarbon dating. 
+            However, it has been impossible to prove that these remains date from the time when the stones were originally set in place.</p></div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="./img/sun.gif" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">The famous Trundholm sun chariot, called Solvognen in Danish, a sculpture of the sun pulled by a mare. 
+            Scholars have dated it to some time in the 15th century BC and believe that it illustrates an important concept expressed 
+            in Nordic Bronze Age mythology.</p></div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="./img/silver.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">The Gundestrup cauldron is a richly decorated silver vessel, thought to date from between 200 BC and 300 AD,
+            or more narrowly between 150 BC and 1 BC. This places it within the late La Tène period or early Roman Iron Age. The cauldron is 
+            the largest known example of European Iron Age silver work. It was found dismantled, with the other pieces stacked inside the base,
+            in 1891, in a peat bog near the hamlet of Gundestrup in the Aars parish of Himmerland, Denmark. It is now usually on display in 
+            the National Museum of Denmark in Copenhagen, with replicas at other museums.</p></div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    
+    <p class="introductionslider">Region and Cities:</p>
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="./img/region.jpeg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">The five Regions of Denmark were created as administrative entities at a level above the municipalities and below the central 
+            government in the public sector as part of the 2007 Danish Municipal Reform, when the 13 counties were abolished. At the same 
+            time, the number of municipalities was cut from 270 to 98. The reform was approved and made into a law by the lawmakers in the 
+            Folketing 26 June 2005 with elections to the 98 municipalities and 5 regions being held Tuesday 15 November 2005. Each region is 
+            governed by a popularly elected regional council with 41 members, from whom the regional chairperson is chosen.</p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="./img/actual.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">The main responsibility of the regions is healthcare. Lesser powers of the regions include public transport, environmental 
+            planning, soil pollution management and some coordination of secondary education. In contrast to the former counties,
+            the regions do not have municipal powers. Regions cannot levy taxes, but are financed partly by block grants from the central 
+            government and partly by taxes collected by their constituent municipalities.</p></div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+
+    <p class="introductionslider">People and Languages:</p>
+    <div class="slideshow-container">
+      <div class="mySlides3 fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="./img/population.png" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Unlike some other countries in the world, Denmark has enjoyed a relatively steady growth in population since records began. 
+            Back in 1769, it was shown that numbers here had reached 797,584 and by 1787, they had climbed marginally to 841,806. The 
+            population of Denmark had exceeded one million by 1834 when it was claimed that 1,230,964 people were living here. </p></div>
+      </div>
+
+      <div class="mySlides3 fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="./img/languages.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">The Kingdom of Denmark has only one official language, Danish, the national language of the Danish people, but there are 
+            several minority languages spoken, namely Faroese, German, and Greenlandic. A large majority, about 86% of Danes also 
+            speak English as a second language; it is mandatory for Danish students to learn from first grade in the public elementary 
+            schools (Danish: folkeskole), by far the most popular option in the country.</p></div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+    </div>
+
+    <p class="introductionslider">Climate:</p>
+    <div class="slideshow-container">
+      <div class="mySlides4 fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="./img/weatherdenmark.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Due to its location in the middle of several seas, Denmark's weather is mild and climate temperate year-round, with western winds 
+            blowing warm air across most of the country. Additionally, Denmark's day and night temperatures don't fluctuate that much, so 
+            if you're planning to travel to this Nordic country, you won't need to pack separate outfits for day and night activities. </p></div>
+      </div>
+
+      <div class="mySlides4 fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="./img/temperaturedenmark.png" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Denmark's mean temperature in the coldest month, February, is 34 degrees Fahrenheit, zero degrees Celsius and in the warmest 
+            month of July, it's 64 degrees Fahrenheit, 17 degrees Celsius, although wind gusts and shifts in wind direction can drastically 
+            change the weather any time of year.</p></div>
+      </div>
+
+      <div class="mySlides4 fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="./img/spring.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Spring months are still cold in Denmark and remain that way through May. On average temperatures dip as low as 50 degrees 
+            Fahrenheit, 10 degrees Celsius in April and can creep up above 60 F, 16 C come May. This is also one of the driest seasons to 
+            visit.</p></div>
+      </div>
+
+      <div class="mySlides4 fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="./img/summer.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Summer in Denmark is cool and pleasant, making it a great respite from hot weather. Temperatures rarely exceed 72 degrees 
+            Fahrenheit, 22 degrees Celsius, with nights being slightly cooler. There are occasional hot days, but in general, summer is a 
+            great time to visit.</p></div>
+      </div>
+
+      <div class="mySlides4 fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="./img/fall.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Quite the opposite of summer, fall in Denmark is dreary, cold, and windy. Daylight hours begin decreasing by September and 
+            temperatures drop quickly—it's just 55 degrees Fahrenheit, 13 degrees Celsius, in October and 46 Fahrenheit by November.</p></div>
+      </div>
+
+      <div class="mySlides4 fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="./img/winter.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textsliderintro">Average winter temperatures in Denmark hover just above freezing. The sun usually sets by the early afternoon, and it's cold 
+            all day. The country's small islands can be slightly warmer but are generally windy. There are often brief cold periods in which 
+            temperatures drop below freezing for several days at a time.</p></div>
+      </div>
+
+
+    
+      <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+    </div>
+
+    <script> 
+        var slideIndex = [1,1,1,1];
+        var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+        showSlides(1,0);
+        showSlides(1,1);
+        showSlides(1,2);
+        showSlides(1,3);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+
+    </script>
+
+  </body>
+</html> 

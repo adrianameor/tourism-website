@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <title>Activities</title>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="newstyle.css" rel="stylesheet">
+  <style> 
+    body.photoslider {box-sizing: border-box}
+    .mySlides1 {
+      display: none;
+    }
+
+    img.imageslider {
+      vertical-align: middle;
+      height: 400px;
+    
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      top: 90px;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 27%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      background-color: grey;
+      opacity: 0.7;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: bottom;
+    bottom: 8px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  div.numbertext{
+      top: 20px;
+    }
+/* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: gray;
+    opacity: 0.7;
+  }
+
+  </style>
+  </head>
+  <body class="photoslider"> 
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="credit.html">Credits</a></li>
+        </ul>
+    </div>
+    
+    <h2 style="text-align:center" class="introductionslider">What can we do in Denmark?</h2>
+    <p class="introductionslider">Fun activities to do!</p>
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+          <div class="numbertext">1 / 10</div>
+          <img src="./img/darksky.jpg" style="width:100%" class="imageslider">
+          <div class="text">
+            <p class="intext">Stargazing</p>
+            <p class="textslideractivity">
+              If you want to stargaze, Dark Sky Park is the most suitable place to do it. In Dark Sky Park, you can experience the Dark Sky phenomenon. Furthermore, you can experience the clear and densely packed starry sky above Møn and Nyord and observe many shootings star crossing the Milky Way. 
+              <br>
+              <strong>Name of the Place:</strong>  Dark Sky Park
+              <br>
+              <strong>Address:</strong>  Nordgade 7 Nyord, 4780 Stege, Denmark
+              <br>
+              <strong>Operating Hours:</strong>  Opens daily, 6:00 p.m - 11:00 p.m
+              <br>
+              <a href="https://www.google.com/maps/place/Dark+Sky+Nyord/@55.0420587,12.0640684,12z/data=!4m9!1m2!2m1!1sdark+sky+park+denmark!3m5!1s0x4652d7255d6b9a9b:0xad86be75eeb08391!8m2!3d55.0420587!4d12.1959043!15sChVkYXJrIHNreSBwYXJrIGRlbm1hcmuSAQ9lY29sb2dpY2FsX3BhcmvgAQA">Take Me There</a>
+              </p>
+            </div>
+          </div>
+      
+        <div class="mySlides1 fade">
+          <div class="numbertext">2 / 10</div>
+          <img src="img/balloon.webp" style="width:100%" class="imageslider">
+          <div class="text">
+            <p class="intext">Hot Air Balloon</p>
+            <p class="textslideractivity">Hot Air Balloon<br>
+              You can ride hot air balloons to enjoy the sunrise and sunset above Denmark. It is safe, does not require any physical strength and brings memorable vacations for you. You can book hot air balloons ride at Dreamballoon Aps. Before booking a hot balloon ride, please check the weather forecast first because weather in Denmark is unpredictable.
+              <br>
+              <strong>Name of the Place:</strong>  Dreamballoon Aps 
+              <br>
+              <strong>Address:</strong> Svejsegangen 8, 2690 Karlslunde, Denmark
+              <br>
+              <strong>Operating Hours:</strong><br>
+              -Monday to Friday, 10:00 a.m. – 1:00 p.m.<br>
+              -Saturday to Sunday, 2:00 p.m. – 3:00 p.m.
+                  
+              <br>
+              <a href="https://www.google.com/maps/place/Dreamballoon+ApS/@55.5720099,12.2374704,17z/data=!3m1!4b1!4m5!3m4!1s0x4652510a0f56387b:0x1a13e15bb457621a!8m2!3d55.5722007!4d12.2398954">Take Me There</a>
+              </p>
+            </div>
+        </div>
+      
+        <div class="mySlides1 fade">
+          <div class="numbertext">3 / 10</div>
+          <img src="./img/sven.webp" style="width:100%" class="imageslider">
+          <div class="text">
+            <p class="intext">Cycling</p>
+            <p class="textslideractivity">Cycling<br>
+              Cycle paths is everywhere in Denmark, but you should visit Bornholm and Svenborg.
+              In Svenborg, cyclists are allowed to discover different areas. If you are a sea lovers, you should cycle along the coast and while culture enthusiasts should head north and visit Egeskov. You can rent a bicycle at Svendborg Cykeludlejning.
+              <br>
+              <strong>Name of the Place:</strong>  Svendborg Cykeludlejning
+              <br>
+              <strong>Address:</strong> Frederiksø 18F, 5700 Svendborg, Denmark
+              <br>
+              <strong>Operating Hours:</strong> Tuesday to Sunday, 9:00 a.m - 2:00 p.m
+              <br>
+              <a href="https://www.google.com/maps/place/Svendborg+Cykeludlejning/@55.0579804,10.6150071,17z/data=!3m1!4b1!4m5!3m4!1s0x464d336e76a981b9:0x2b6997e1fe08adc3!8m2!3d55.0579804!4d10.6171958">Take Me There</a>
+              </p>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="./img/bornholm.jpeg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="textsliderattract">Cycling<br>
+                Most travelers choose to explore Bornholm by bike because it has cycle routes all around the island and it is the perfect way to see every hidden corner of Bornholm stunning landscape. You can rent a bicycle at Rent Bike Bornholm. 
+            
+                <br>
+                <strong>Name of the Place:</strong>  Rent Bike Bornholm<br>
+                <strong>Address:</strong> Store Torvegade 59, 3700 Rønne, Denmark<br>
+                <strong>Operating Hours:</strong><br>
+                -Monday to Thursday, 9:30 a.m - 5:30 p.m<br>
+                -Friday, 9:00 a.m - 6:00 p.m<br>
+                -Saturday, 9:00 a.m to 2:00 p.m 
+                <br>
+                <a href="https://www.google.com/maps/place/Rent+Bike+Bornholm/@55.1061386,14.1735335,10z/data=!4m9!1m2!2m1!1srent+bike+bornholm!3m5!1s0x46551bf584a0c3bf:0xf63436b117feebad!8m2!3d55.1061386!4d14.7008772!15sChJyZW50IGJpa2UgYm9ybmhvbG2SARZiaWN5Y2xlX3JlbnRhbF9zZXJ2aWNl4AEA">Take Me There</a>
+              </p>
+              </div>
+          </div>
+    
+          <div class="mySlides1 fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="./img/amarmino.jfif" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="textsliderattract">Hiking<br>
+                Do you love to go hiking but you do not know where to go? Luckily, there are hiking trails in Denmark at Amarminoen and Camønoen. You can relax your mind and being far away from the noises in the city. Be careful while you are hiking and do not forget to bring food!!!
+                <br>
+                <strong>Name of the Place:</strong>  Amarminoen
+                <br>
+                <strong>Address:</strong> Ørestads Blvd., 2300 København, Denmark
+                <br>
+                <strong>Operating Hours:</strong> Opens daily, 5:00 a.m - 11:00 p.m
+                <br>
+                <a href="https://www.google.com/maps/place/Amarminoen/@55.654554,12.5861444,17z/data=!3m1!4b1!4m5!3m4!1s0x465253724b3970ab:0x9a3d5e10d6061039!8m2!3d55.654554!4d12.5883331">Take Me There</a>
+                </p>
+              </div>
+            </div>
+            <div>
+                <div class="mySlides1 fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="./img/neon.jpg" style="width:100%" class="imageslider">
+                <div class="text">
+                  <p class="intext">Hiking</p>
+                  <p class="textslideractivity">
+                <br>
+                <strong>Name of the Place:</strong>  Camønoen<br>
+                <strong>Address:</strong> Storegade 75, 4780 Stege, Denmark<br>
+                <strong>Operating Hours:</strong> Opens daily, 24 hours
+                <br>
+                <a href="https://www.google.com/maps/place/Cam%C3%B8noen/@54.9871067,12.2868553,17z/data=!3m1!4b1!4m5!3m4!1s0x4652d626c50bffff:0x86bb4f4554886bd8!8m2!3d54.9871067!4d12.289044">Take Me There</a>
+                </p>
+                </div>
+                </div>
+            </div>
+            <div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="./img/windsurf.jpg" style="width:100%" class="imageslider">
+                    <div class="text">
+                      <p class="intext">Surfing and Windsurfing</p>
+                      <p class="textslideractivity">
+                    Aarhus Watersports Complex and North Shore Surf Loekken are places where you can do surfing and windsurfing. They also provide professional trainers to guide you. So, don’t worry if you are a beginner and just enjoy yourself! 
+                    <br>
+                    <strong>Name of the Place:</strong>  Aarhus Watersports Complex
+                    <br>
+                    <strong>Address:</strong> Irma Pedersens Gade, 8000 Aarhus, Denmark
+                    <br>
+                    <strong>Operating Hours:</strong><br>
+                    - Monday to Friday, 10:00 a.m - 7:30 p.m<br>
+                    - Saturday to Sunday, 10:00 a.m - 7:00 p.m<br>
+                
+                        <br>
+                    <a href="https://www.google.com/maps/place/Aarhus+Watersports+Complex/@56.1641574,10.2226871,17z/data=!3m1!4b1!4m5!3m4!1s0x464c3fa17cb1b273:0x720a308fb5716d1e!8m2!3d56.1641574!4d10.2248758">Take Me There</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="./img/surf.jfif" style="width:100%" class="imageslider">
+                    <div class="text">
+                      <p class="intext">Surfing and Windsurfing</p>
+                      <p class="textslideractivity">
+                      <br>
+                        <strong>Name of the Place:</strong>  North Shore Surf Loekken
+                        <br>
+                        <strong>Address:</strong> Sdr Strandvej 18, 9480 Løkken, Denmark
+                        <br>
+                        <strong>Operating Hours:</strong> Opens daily, 10:00 a.m - 8:30 p.m
+                        <br>
+                      <a href="https://www.google.com/maps/place/North+Shore+Surf+-+L%C3%B8kken/@57.371276,9.7046272,17z/data=!3m1!4b1!4m5!3m4!1s0x4648dbfa85941219:0xb02f5d844d893155!8m2!3d57.3712605!4d9.7067894">Take Me There</a>
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="./img/parasailing.jpg" style="width:100%" class="imageslider">
+                    <div class="text">
+                      <p class="intext">Parasailing and Paragliding</p>
+                      <p class="textslideractivity">
+                        Parasailing and paragliding feeling like you are flying in the sky while watching the view around you. If you want to try these activities, you can book for it at Aversi Parachute Club. 
+                        
+                        <br>
+                        <strong>Name of the Place:</strong>  Aversi Parachute Club
+                        <br>
+                        <strong>Address:</strong> Tornelundsvej 8, 4690 Haslev, Denmark
+                        <br>
+                        <strong>Operating Hours:</strong> Saturday to Sunday, 9:00 a.m - 8.00 p.m
+                        <br>
+                        <a href="https://www.google.com/maps/place/Aversi+Parachute+Club/@55.3443797,11.8355472,17z/data=!3m1!4b1!4m5!3m4!1s0x4652946b83bdb995:0x58cb392da27124ee!8m2!3d55.3443797!4d11.8377359">Take Me There</a>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <div class="mySlides1 fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="./img/canal cruise.jfif" style="width:100%" class="imageslider">
+                    <div class="text">
+                      <p class="intext">Canal Tour</p>
+                      <p class="textslideractivity">
+                        If you want to join cozy canal tour, you can book at Stromma Canal Tours Copenhagen to enjoy a classic canal tour around Copenhagen’s harbour and the idyllic canals. This boat sightseeing tour departs from Nyhavn and Ved Stranden and passes some of Copenhagen's best sights and attractions. For instance, The Little Mermaid, the Old Stock Exchange, the Opera, the Black Diamond and Christiansborg. 
+                        <br>
+                        <strong>Name of the Place:</strong>  Stromma Canal Tours Copenhagen
+                        <br>
+                        <strong>Address:</strong> Nyhavn 3, 1253 København, Denmark
+                        <br>
+                        <strong>Operating Hours:</strong> Opens daily, 10:00 a.m - 5:10 p.m
+                        <br>
+                        <a href="https://www.google.com/maps/place/Stromma+Canal+Tours+Copenhagen/@55.6790572,12.5798423,16z/data=!4m9!1m2!2m1!1sstromma+canal+tours+copenhagen!3m5!1s0x46525316cdc162c9:0x9c9a1637c225f3c2!8m2!3d55.680525!4d12.5879437!15sCh5zdHJvbW1hIGNhbmFsIHRvdXJzIGNvcGVuaGFnZW4iA4gBAZIBF3NpZ2h0c2VlaW5nX3RvdXJfYWdlbmN54AEA">Take Me There</a>
+                      </p>
+                    </div>
+                </div>
+            </div>
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+    
+        <script> 
+            var slideIndex = [1];
+            var slideId = ["mySlides1"]
+            showSlides(1,0);
+            
+            function plusSlides(n, no) {
+              showSlides(slideIndex[no] += n, no);
+            }
+            
+            function showSlides(n, no) {
+              var i;
+              var x = document.getElementsByClassName(slideId[no]);
+              if (n > x.length) {slideIndex[no] = 1}    
+              if (n < 1) {slideIndex[no] = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex[no]-1].style.display = "block";  
+            }
+    
+        </script>
+    
+      </body>
+    </html>

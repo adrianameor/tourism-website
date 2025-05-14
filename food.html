@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <title>Food & Beverages</title>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="newstyle.css" rel="stylesheet">
+  <style> 
+    body.photoslider {box-sizing: border-box}
+    .mySlides1, .mySlides2 {
+      display: none;
+    }
+
+    .mySlides2 {
+      margin-bottom: 100px;
+    }
+
+    img.imageslider {
+      vertical-align: middle;
+      height: 400px;
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      top: 60px;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 37%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      background-color: grey;
+      opacity: 0.7;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: bottom;
+    bottom: 8px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+/* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  /* Number text (1/3 etc) */
+  div.numbertext {
+    color: white;
+    font-size: 20px;
+    padding: 12px 12px;
+    position: absolute;
+    top: 20px;
+    background-color: gray;
+    opacity: 0.7;
+  }
+
+  </style>
+  </head>
+  <body class="photoslider"> 
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="#">Credits</a></li>
+        </ul>
+    </div>
+    
+    <h2 style="text-align:center" class="introductionslider">Food And Beverages</h2>
+    <p class="introductionslider">FOOD & BEVERAGES</p>
+    <div class="slideshow-container">
+      <div class="mySlides1 fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="./img/danish pastries.png" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">DANISH PASTRIES</p>
+          <p class="textsliderfood">
+          <br>
+          The concept was brought to Denmark by Austrian bakers, where the 
+            recipe was partly changed and accommodated by the Danes to their liking, and has since developed into a Danish specialty.You 
+            can eat it with fruit and cream cheese.</p></div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="./img/oyster.png" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">OYSTER</p>
+          <p class="textsliderfood">
+          <br>
+          Denmark is home to two types of oysters, The first is  the Limfjord oyster 
+            and second oyster is the Pacific oyster (crassostrea gigas)</p></div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="./img/risalamande.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">RISALAMANDE</p>
+          <p class="textsliderfood">The most popular Danish Christmas dessert, Risalamande is a wonderfully 
+            creamy almond rice pudding that is served topped with a delicious cherry sauce!</p></div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="./img/alchohol.png" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">HYLDEBLOMSTSAFT</p>
+          <p class="textsliderfood">
+          <br>
+          An elderflower juice mixed with water. It is usually served cold, 
+            but you might try it served hot in winter.</p></div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="./img/akvitat.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">AKVAVIT</p>
+          <p class="textsliderfood">
+            <br>
+            Akvavit called snaps as well is a high proof spirit made from potatoes and flavoured with a variety of herb and make sure 
+            you try it in the Christmas season.</p></div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    
+    <p class="introductionslider">RESTAURANT IN DENMARK</p>
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <div class="numbertext">1 / 10</div>
+        <img src="./img/noma.webp" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">NOMA</p>
+          <p class="textsliderfood">
+          Refshalevej 96, 1432 Copenhagen, Denmark<br>+45 3296 3297<br><a href="https://noma.dk/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">2 / 10</div>
+        <img src="./img/salt.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">PEPPER & SALT RESTAURANT</p>
+          <p class="textsliderfood">
+            
+            1564 South Coast Hwy, Denmark WA 6333, Australia
+            <br>
+            +61 8 9848 3053<br>
+            <a href="https://www.pepperandsalt.com.au/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">3 / 10</div>
+        <img src="./img/lhd2.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">LAKE HOUSE RESTAURANT</p>
+            <p class="textslider"><p class="textsliderfood">
+            106 Turner Rd, Denmark, Western Australia 6333 Australia
+            <br>
+            +61 8 9848 2444
+            <br>
+            <a href="https://www.lakehousedenmark.com.au/">Take Me There</a></p></div>
+      </div>
+      <div class="mySlides2 fade">
+        <div class="numbertext">4 / 10</div>
+        <img src="./img/tavren.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">DENMARK TAVERN RESTAURANT</p>
+          <p class="textsliderfood">
+          
+            South Coast Highway, Denmark, Western Australia 6333 Australia
+            <br>
+            +61 8 9848 1084
+            <br>
+            <a href="https://www.thedenmarktavern.com.au/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">5 / 10</div>
+        <img src="./img/alchemist.jpg" style="width:100%" class="imageslider">
+        <div class="text"><p class="textslider">
+          <p class="intext">DENMARK TAVERN RESTAURANT ALCHEMIST</p>
+          <p class="textsliderfood">
+              Refshalevej 173C, 1432 København K, Denmark
+              <br>
+              +45 3171 6161<br>
+                <a href="https://alchemist.dk                            ">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">6 / 10</div>
+        <img src="./img/liban.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">LIBAN CUISINE</p>
+          <p class="textslider"><p class="textsliderfood">
+            Rantzausgade 1, Copenhagen 2200 Denmark<br>
+            +45 3811 5050<br>
+            <a href="https://libancuisine.dk/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">7 / 10</div>
+        <img src="./img/aldiwan.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">AL-DIWAN</p>
+          <p class="textsliderfood">
+            Vesterbrogade 94, Copenhagen 1620 Denmark<br>
+            +45 2071 7700<br>
+            <a href="https://www.al-diwan.dk/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">8 / 10</div>
+        <img src="./img/kebabistan.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">KEBABISTAN</p>
+          <p class="textsliderfood">
+            Istedgade 105, Copenhagen 1650 Denmark<br>
+            +45 3322 8993<br>
+            <a href="https://myspace.com/kebabistan">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">9 / 10</div>
+        <img src="./img/mangal.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">RESTAURANT MANGAL </p>
+          <p class="textsliderfood">
+            Flæsketorvet 50, Copenhagen 1711 Denmark<br>
+            +45 6143 6153<br>
+            <a href="http://www.restaurantmangal.com/">Take Me There</a></p></div>
+      </div>
+
+      <div class="mySlides2 fade">
+        <div class="numbertext">10 / 10</div>
+        <img src="./img/pizza.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">IBOO'S PIZZA & PAKISTANSK TAKEAWAY</p>
+          <p class="textsliderfood">
+            Vester Voldgade 86, Copenhagen 1552 Denmark<br>
+            +45 3314 5674<br>
+            <a href="http://www.iboos.dk/">Take Me There</a></p></div>
+      </div>
+
+
+
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    <script> 
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1,0);
+        showSlides(1,1);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+
+    </script>
+
+  </body>
+</html>

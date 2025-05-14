@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ACCOMMODATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="newstyle.css" rel="stylesheet">
+    <style> 
+      body.photoslider {box-sizing: border-box}
+      .mySlides1 {display: none}
+      img.imageslider {
+        vertical-align: middle;
+        height: 400px;
+
+      }
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        top: 90px;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 35%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        background-color: grey;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a grey background color */
+      .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+      }
+  
+      .text {
+      color: #f2f2f2;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: bottom;
+      bottom: 8px;
+      max-width: 1000px;
+      text-align: center;
+      background-color: black;
+      opacity: 0.8;
+    }
+  
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+  
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    div.numbertext{
+      top: 20px;
+    }
+  /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+  
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: white;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      background-color: gray;
+      opacity: 0.7;
+    }
+  
+    </style>
+</head>
+<body class="photoslider">
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="credit.html">Credits</a></li>
+        </ul>
+    </div>
+    <h2 style="text-align:center" class="introductionslider">Accommodation</h2>
+    <p class="introductionslider">BUDGET COST</p>
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/bedwood hostel.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">BEDWOOD HOSTEL</p>
+                <p class="textslideraccommo">
+                Relaxed half-timbered warehouse-turned-hostel with a bar, a communal kitchen & bike rentals<br>
+                Nyhavn 63C, 1051 København, Denmark<br>
+                +45 6142 6146<br>
+                COST : RM 150 / Kr 252<br>
+                <a href="https://www.google.com/maps/place/Bedwood+Hostel/@55.6799644,12.5905553,17z/data=!3m1!4b1!4m8!3m7!1s0x4652533cd365edf7:0xb567ca44c135d591!5m2!4m1!1i2!8m2!3d55.6799644!4d12.592744?hl=en-GB">Take Me There</a></p>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/farm 61.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">FARM 61</p>
+              <p class="textslideraccommo">
+                Tindbækvej 61, 8830 Tjele, Denmar<br>
+                +45 2714 6002<br>
+                COST : RM 278 / Kr 466<br>
+                <a href="https://www.farm61.dk/">Take Me There</a></p>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/hotel.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">ELEONORAS</p>
+              <p class="textslideraccommo">
+                Vest Vedsted Vej 127, 6760 Ribe, Denmark<br>
+                +45 2636 6760<br>
+                COST : RM 322 / Kr 540<br>
+                <a href="https://eleonoras.dk/da">Take Me There</a></p>
+
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    <p class="introductionslider">MID RANGE COST</p>
+    <div class="slideshow-container">
+        <div class="mySlides2 fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="./img/montra.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">MONTRA ODDER PARKHOTEL</p>
+              <p class="textslideraccommo">
+                Down-to-earth hotel offering eclectic rooms, plus a refined restaurant & breakfast.<br>
+                Torvald Køhlsvej 25, 8300 Odder, Denmark<br>
+                +45 8654 4744<br>
+                COST : RM 563 / Kr 944<br>
+                <a href="https://montrahotels.dk/odder-parkhotel">Take Me There</a></p>
+
+            </div>
+        </div>
+        <div class="mySlides2 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/atlantic hotel.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">HOTEL ANTLANTIC</p>
+              <p class="textslideraccommo">
+                Europaplads 10, 8000 Aarhus, Denmark<br>
+                +45 8613 1111<br>
+                COST : RM 702 / Kr 1177<br>
+                <a href="https://hotelatlantic.dk/">Take Me There</a></p>
+
+            </div>
+        </div>
+        <div class="mySlides2 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/bandholm.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">BANDHOLM HOTEL</p>
+              <p class="textslideraccommo">
+                Havnegade 37, 4941 Bandholm, Denmark<br>
+                +45 5475 5476<br>
+                COST : RM 771 / Kr 1289<br>
+                <a href="https://en.bandholmbadehotel.dk/">Take Me There</a></p>
+
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    <p class="introductionslider">HIGH RANGE COST</p>
+    <div class="slideshow-container">
+        <div class="mySlides3 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/brittania.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">HOTEL BRITTANIA</p>
+                <p class="textslideraccommo1">
+                Unassuming hotel featuring a cafe/bar & an informal restaurant, as well as free breakfast & Wi-Fi.<br>
+                Torvegade 24, 6700 Esbjerg, Denmark<br>
+                +45 7513 0111<br>
+                COST : RM 969 / Kr 1622<br>
+                <a href="https://www.britannia.dk/">Take Me There</a></p>
+
+            </div>
+        </div>
+        <div class="mySlides3 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/clarion.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">CLARION HOTEL COPENHAGEN AIRPORT</p>
+              <p class="textslideraccommo1">
+                Modern rooms & suites with flat-screen TVs, plus a bar/lounge, 2 restaurants & a gym.<br>
+                Københavns Lufthavn, Ellehammersvej 20, 2770 Kastrup, Denmark<br>
+                +45 3250 1501<br>
+                COST : RM 993 / Kr 1662<br>
+                <a href="https://www.cph.dk/">Take Me There</a></p>
+
+            </div>
+        </div>
+        <div class="mySlides3 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/villa.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+              <p class="intext">VILLA PROVENCE HOTEL</p>
+              <p class="textslideraccommo1">
+                Chic rooms & suites in a stylish hotel offering free breakfast, a courtyard & a bar.<br>
+                Fredens Torv 12, 8000 Aarhus, Denmark<br>
+                +45 8618 2400<br>
+                COST : RM 1130 / Kr 1886<br>
+                <a href="https://villaprovence.dk/">Take Me There</a></p>
+
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+    </div>
+    <script> 
+        var slideIndex = [1,1,1];
+        var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+        showSlides(1,0);
+        showSlides(1,1);
+        showSlides(1,2);
+        
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+
+    </script>
+
+  </body>
+</html>
+

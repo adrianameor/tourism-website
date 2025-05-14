@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <title>Attraction</title>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="newstyle.css" rel="stylesheet">
+  <style> 
+    body.photoslider {box-sizing: border-box}
+    .mySlides1 {
+      display: none;
+    }
+
+    img.imageslider {
+      vertical-align: middle;
+      height: 400px;
+    
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      top: 90px;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 27%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      background-color: grey;
+      opacity: 0.7;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: bottom;
+    bottom: 8px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  div.numbertext{
+      top: 20px;
+    }
+/* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: gray;
+    opacity: 0.7;
+  }
+
+  </style>
+  </head>
+  <body class="photoslider"> 
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="credit.html">Credits</a></li>
+        </ul>
+    </div>
+    
+    <h2 style="text-align:center" class="introductionslider">Attractions</h2>
+
+    <div class="slideshow-container">
+      <div class="mySlides1 fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="./img/tivoligarden.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">1. Tivoli Garden</p>
+          <p class="textsliderattract">
+          Fun and games aside, the fact that it is the second-oldest amusement park in the world 
+            lends it a sense of credibility that lures in many to book tickets to this park during their time in Denmark. Apart from 
+            mainstream offerings of amusement rides and carnival games, some interesting features about this place are the pretty flower 
+            gardens, food pavilions, and open-air shows. Plan your visit here such that you can spend some time after the sun sets, 
+            because this is when the stage becomes lit for a host of cultural activities!<br>
+            <br>
+            <strong>Location:</strong> Vesterbrogade 3, 1630 København V, Denmark
+            <br>
+            <strong>Opening hours:</strong> 11 am - 12 am
+            <br>
+            <strong>Entry Fee:</strong> Starting from $19.27
+            <br>
+            <a href="https://www.google.com/maps/place/Tivoli+Gardens/@55.6736841,12.5659584,17z/data=!3m1!4b1!4m5!3m4!1s0x4652531280f6eaf3:0xd9b50b0db50b27b0!8m2!3d55.6736841!4d12.5681471">Take Me There</a>
+            </p>
+          </div>
+        </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="./img/Glyptotek.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">2. Ny Carlsberg Glyptotek</p>
+          <p class="textsliderattract">
+          The Ny Carlsberg Glyptotek, commonly known simply as Glyptoteket, is an art museum in Copenhagen, Denmark. 
+            The collection represents the private art collection of Carl Jacobsen.
+            The museum is equally noted for its collection of paintings that includes an extensive collection of French impressionists and Post-impressionists as 
+            well as Danish Golden Age paintings. The French Collection includes works by painters such as Jacques-Louis David, Monet, 
+            Pissarro, Renoir, Degas and Cézanne, as well as those by Post-impressionists such as van Gogh, Toulouse-Lautrec and Bonnard!<br>
+            <br>
+            <strong>Location:</strong> Dantes Plads 7, 1556 København, Denmark
+            <br>
+            <strong>Opening hours:</strong> 10 am - 5pm
+            <br>
+            <strong>Entry Fee:</strong> Starting from $16.08 
+            <br>
+            <a href="https://www.google.com/maps/place/Ny+Carlsberg+Glyptotek/@55.67298,12.5703543,17z/data=!3m1!4b1!4m5!3m4!1s0x465253130411747d:0x599f2e4fe338e7a1!8m2!3d55.67298!4d12.572543" >Take Me There</a>
+          </div>
+      </div>
+    
+      <div class="mySlides1 fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="./img/Christiansborg.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext"> 3.Christiansborg Palace, Copenhagen</p>
+            <p class="textsliderattract">
+          Boasting more than 800 years of history, Christiansborg is the power 
+            base of the kingdom of Denmark and now home to the Parliament, the Prime Minister's Office, and the Supreme Court.
+            Fans of the TV series Borgen will be familiar with the setting. Several wings are still used by the Royal household, and much 
+            of this is open to the public. Bishop Absalon built fortifications of the city here in 1167, and visitors can see ruins of the 
+            bishop's castle, which was destroyed in the 14th century, as well as the medieval fortress.<br>
+            <br>
+            <strong>Location:</strong> Prins Jørgens Gård 1, 1218, Copenhagen
+            <br>
+            <strong>Opening hours:</strong> 10 am - 5pm
+            <br>
+            <strong>Entry Fee:</strong> Entrance to the Tower is free of charge
+            <br>
+            <a href="https://www.google.com/maps/place/Christiansborg+Palace/@55.6763218,12.5781387,17z/data=!3m1!4b1!4m5!3m4!1s0x46525316bf91ba09:0x2cb677e778366219!8m2!3d55.6763218!4d12.5803274">Take Me There</a>
+          </div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="./img/Nyhavn.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">4. Nyhavn, Copenhagen</p>
+          <p class="textsliderattract">
+          The star of countless images and postcards of the city, Nyhavn is a great place to 
+            stroll or grab a slice of Copenhagen café culture. Located to the rear of Amalienborg Palace, this was once a disreputable stretch of dockland but has 
+            been given a new lease of life with its multi-colored houses, restaurants, and tall ships dotting 
+            the quayside. Nyhavn is now a particularly charming quarter and consequently a major draw for tourists and locals alike.<br>
+            <br>
+            <strong>Location:</strong> Indre By, Copenhagen, Denmark
+            <br>
+            <strong>Opening hours:</strong> 24 hours a day
+            <br>
+            <strong>Entry Fee:</strong> $255 per night
+            <br>
+            <a href="https://www.google.com/maps/search/Nyhavn,+Copenhagen/@55.6797706,12.5886097,17z/data=!3m1!4b1">Take Me There</a>
+          </div>
+      </div>
+
+      <div class="mySlides1 fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="./img/OresundBridge.jpg" style="width:100%" class="imageslider">
+        <div class="text">
+          <p class="intext">5. Oresund Bridge, Copenhagen</p>
+          <p class="textsliderattract">
+          Decades in the planning and often controversial, the Oresund Bridge has quickly 
+            become a Scandinavian icon.
+            The eight-kilometer structure opened in 1999 and now links the island of Zealand, Denmark's largest island and home to 
+            Copenhagen, to the southwest coast of Sweden, specifically to the port of Malmo, Sweden's third largest city. Fans of 
+            Scandi-noir will know that the Oresund Bridge has recently gained much global infamy as the central focus of the smash hit 
+            Danish/Swedish TV drama The Bridge.<br>
+            <br>
+            <strong>Location:</strong> Copenhagen, Malmö, Malmö Municipality
+            <br>
+            <strong>Opening hours:</strong> 24 hours a day
+            <br>
+            <a href="https://www.google.com/maps/place/%C3%98resund+Bridge/@55.5706287,12.8464484,17z/data=!3m1!4b1!4m5!3m4!1s0x4653a7023a051afb:0xbc0e93c11c372873!8m2!3d55.5706287!4d12.8486371">Take Me There</a></p>
+          </div>
+        </div>
+    
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+
+    <script> 
+        var slideIndex = [1];
+        var slideId = ["mySlides1"]
+        showSlides(1,0);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+
+    </script>
+
+  </body>
+</html> 

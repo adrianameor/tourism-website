@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping in Denmark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="newstyle.css" rel="stylesheet">
+    <style> 
+      body.photoslider {box-sizing: border-box}
+      .mySlides1 {display: none}
+      img.imageslider {
+        vertical-align: middle;
+        height: 400px;
+      }
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        top: 90px;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 28%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        background-color: grey;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      .prev1, .next1 {
+        cursor: pointer;
+        position: absolute;
+        top: 45%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        background-color: grey;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      .prev2, .next2 {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        background-color: grey;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      .prev3, .next3 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        background-color: grey;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next, .next1, .next2, .next3 {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a grey background color */
+      .prev:hover, .next:hover, .prev1:hover, .next1:hover, .prev2:hover, .next2:hover, .prev3:hover, .next3:hover {
+        background-color: #f1f1f1;
+        color: black;
+      }
+  
+      .text {
+      color: #f2f2f2;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: bottom;
+      margin-bottom: 70px;
+      max-width: 1000px;
+      text-align: center;
+      background-color: black;
+      opacity: 0.8;
+      
+    }
+
+    .text1 {
+      color: #f2f2f2;
+      font-size: 20px;
+      padding: 8px 70px;
+      position: bottom;
+      margin-bottom: 70px;
+      max-width: 1000px;
+      text-align: center;
+      background-color: black;
+      opacity: 0.8;
+    }
+    .text2 {
+      color: #f2f2f2;
+      font-size: 20px;
+      padding: 8px 70px;
+      position: bottom;
+      margin-bottom: 70px;
+      max-width: 1000px;
+      text-align: center;
+      background-color: black;
+      opacity: 0.8;
+    }
+  
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+  
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    div.numbertext{
+      top: 20px;
+    }
+  
+  /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+  
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: white;
+      font-size: 20px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      background-color: gray;
+      opacity: 0.7;
+      z-index: 2;
+    }
+  
+    </style>
+</head>
+<body class="photoslider">
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="home.html">Home</a>
+            <li><a href="#">Contents</a>
+               <ul>
+                 <li><a href="introduction.html">Introduction</a></li>
+                 <li><a href="attraction.html">Attractions</a></li>
+                 <li><a href="activities.html">Activities</a></li>
+                 <li><a href="food.html">Food and Beverages</a></li>
+                 <li><a href="shopping.html">Shopping</a></li>
+                 <li><a href="transportation.html">Transportation</a></li>
+                 <li><a href="accommodation.html">Accommodation</a></li>
+                 <li><a href="safety.html">Health and Safety</a></li>
+               </ul>
+            </li>
+            <li class="dmlogo"><img src="./img/denmarklogo.png" class="denmarklogo"/></li>
+            <li><a href="#">Individual Curriculum Vitae</a>
+               <ul>
+                 <li><a href="Adriana.html">Adriana</a></li>
+                 <li><a href="NurRafida.html">Nur Rafida</a></li>
+                 <li><a href="Manisha.html">Manisha Farhana</a></li>
+                 <li><a href="Fatimah.html">Fatimah Izzah</a></li>
+               </ul>
+            </li>
+            <li><a href="credit.html">Credits</a></li>
+        </ul>
+    </div>
+    <h2 style="text-align:center" class="introductionslider">Go Shopping in Denmark</h2>
+    <p class="introductionslider">Famous Shopping Destination in Denmark</p>
+    <p class="b4text">Copenhagen is a famous shopping destination in the Nordic countries.</p>
+    <div class="slideshow-container">
+        <div class="mySlides1 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/stroget.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+                <p class="intext">Strøget</p>
+                <p class="textslidershop">Copenhagen is a famous shopping destination in the Nordic countries.
+                The street Strøget is one of Europe's longest pedestrian streets with a wealth of shops, from budget-friendly chains to some of the world's most expensive brands.
+                    The stretch is 1.1 kilometres long and runs from City Hall Square (Rådhuspladsen) to Kongens Nytorv. When you visit Strøget, there is no doubt that the place is the most famous
+                     area for shopping in Copenhagen. Big international brands like Prada, Max Mara, Louis Vuitton, Mulberry, Hermès and Boss are represented here.
+                    If you continue along Strøget down towards City Hall Square, where you find shops like H&M, Vero Moda, Ecco, Lego, Pandora, Weekday and Zara. </p>
+            </div>
+        </div>
+        <div class="mySlides1 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/Illum_2017.jpg" style="width:100%" class="imageslider">
+            <div class="text">
+            <p class="intext">Illum Shopping Center
+            <p class="textslidershop">ILLUM is Copenhagen's premium department store and  offers lots of inspiration for the shopper, gourmet and tourist.
+              The department store is perfectly located in the heart of Copenhagen on the corner between Strøget and Købmagergade - the two major pedestrian streets in the 
+              inner city. Illum shopping mall can meet your shopping dreams offering everything from fashion and beauty to home décor and design. As a shopping destination, the department 
+              store offers the best Nordic and international brands in fashion, beauty and design. For the quality-conscious foodies, there is the Italian speciality chain, Eataly in the basement and 
+              Illum Rooftop with various restaurants and balcony views of Amagertorv, Strøget and Christiansborg. </p>
+              </div>
+          </div>
+          <div class="mySlides1 fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="./img/field-s-front-ud-mod.jpg" style="width:100%" class="imageslider">
+              <div class="text">
+              <p class="intext">Field's</p>
+              <p class="textslidershop">Field`s one of Denmark`s newest and biggest shopping malls, close to Copenhagen International Airport by metro.
+              Field's, one of the Nordic reginons`s largest shopping and entertainment centre, is located right by the Ørestad Metro Station between Copenhagen Int. airport and the city centre.
+              "Fields of Fashion" offers leading Nordic and international fashion designs, shoes and accessories in more than 140 stores. </p>
+              </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+      <p class="introductionslider">Denmark Famous Markets</p>
+      <div class="slideshow-container">
+      <div class="mySlides2 fade">
+          <div class="numbertext">1 / 4</div>
+          <div class="text1">
+            <p class="intext">Friedrichsburg Market</p>
+            <p class="textslidershop">One of the best and most famous Second-hand markets<br>
+               We advise you to visit the second-hand markets in Denmark, because you will find different types of products at reasonable prices and that their quality is good,
+             so you should visit the Fredericksburg market. The market takes place at the end of the week, and these markets are very popular in the period from May to October.<br>
+              <a href="https://www.google.com/maps/place/Saturday+Loppemarked/@55.6780182,12.5304036,17z/data=!3m1!4b1!4m5!3m4!1s0x465253bc250c5d37:0xd3203c593541cb39!8m2!3d55.6780182!4d12.5325923">Take Me There</a></p>
+          </div>
+      </div>
+      <div class="mySlides2 fade">
+          <div class="numbertext">2 / 4</div>
+          <div class="text1">
+            <p class="intext">Antique Market</p>
+            <p class="textslidershop">for those who love antiques or love to buy wonderful souvenirs<br>
+              It is considered one of the seasonal markets, and it works from April to October, when you visit it. You will find a lot of valuable
+              antiques that appeal to visitors and also the products made of wonderful original porcelain. Many Danish antiques dealers in addition to traders from other countries
+              participate in the market, but it is one of the most expensive markets in Denmark due to the quality of its valuable products in addition to its heritage.<br>
+              <a href="https://www.google.com/maps/place/B%26W+Market/@56.0385805,8.4955583,7z/data=!4m9!1m2!2m1!1santique+market+denmark!3m5!1s0x465252d79695b455:0x2e75a330053d13e6!8m2!3d55.6927802!4d12.6125982!15sChZhbnRpcXVlIG1hcmtldCBkZW5tYXJrWhgiFmFudGlxdWUgbWFya2V0IGRlbm1hcmuSAQtmbGVhX21hcmtldJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSaE5VOUVjSE5CUlJBQuABAA">Take Me There</a></p>
+          </div>
+      </div>
+      <div class="mySlides2 fade">
+          <div class="numbertext">3 / 4</div>
+          <div class="text1">
+            <p class="intext">The Handicraft Market</p>
+            <p class="textslidershop">If you are a fan of arts and crafts, you should go to this famous market<br>
+              offer a selection of the best handicrafts such as textiles and other crafts that are related to the culture of the region. This appears in works as artists spread to 
+              the market. For one of your loved ones and give it to him/her as a wonderful souvenir when you return to the country. The market will start work on Saturday in the period from May to September
+              and the market will be held in the park “Kungens Nietorf” so it provides a wonderful view of the beautiful plants and landscapes that increase the pleasure of shopping.<br>
+              <a href="https://www.google.com/maps/place/Arts+and+Crafts/@55.6817651,12.5759943,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPRjBhl7-vT7WfQEaqQDO7L7PcbA2ApP7Uixy7M!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPRjBhl7-vT7WfQEaqQDO7L7PcbA2ApP7Uixy7M%3Dw114-h86-k-no!7i3264!8i2448!4m9!1m2!2m1!1sthe+handicraft+market+denmark!3m5!1s0x4652531a80ce2fef:0x62d80ce13ef3a7f4!8m2!3d55.6818076!4d12.5759319!15sCh10aGUgaGFuZGljcmFmdCBtYXJrZXQgZGVubWFya5IBCmhhbmRpY3JhZnTgAQA">Take Me There</a></p>
+              </div>
+          </div>
+          <div class="mySlides2 fade">
+              <div class="numbertext">4 / 4</div>
+              <div class="text1">
+                <p class="intext">The Christmas Market</p>
+                <p class="textslidershop">It is not a traditional market, but rather a celebration festival<br>
+                  The market is located in Tivoli Park. The garden is equipped and lights are set, in addition to decorating trees that increase the beauty of the market, there are more than
+                   50 shops selling everything Visitors need it on birthdays, and there is a place dedicated to souvenirs and children’s toys<br>
+                  <a href="https://www.google.com/maps/place/Tivoli+Concert+Hall+Gardens/@55.673746,12.5653508,16.71z/data=!4m9!1m2!2m1!1stivoli+park!3m5!1s0x46525312831d30b5:0x34318e6eeee3a7d1!8m2!3d55.6732755!4d12.5681418!15sCgt0aXZvbGkgcGFya1oNIgt0aXZvbGkgcGFya5IBBmdhcmRlbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSWloyUkRaUzFCUlJBQuABAA">Take Me There</a></p>
+              </div>
+          </div>
+          <a class="prev1" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next1" onclick="plusSlides(1, 1)">&#10095;</a>
+      </div>
+      <p class="introductionslider">Top Danish Brands</p>
+      <div class="slideshow-container">
+          <div class="mySlides3 fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="./img/lego.png" style="width:100%" class="imageslider">
+              <div class="text">
+                <p class="intext">Perfect souvenir from Denmark</p>
+              </div>
+          </div>
+          <div class="mySlides3 fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="./img/pandora.png" style="width:100%" class="imageslider">
+              <div class="text">
+                <p class="intext">Charm bracelets specially for you</p>
+              </div>
+          </div>
+          <div class="mySlides3 fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="./img/royal-copenhagen-vector-logo-2022.png" style="width:100%" class="imageslider">
+              <div class="text">
+                <p class="intext"><strong>Classic porcelain</strong></p>
+              </div>
+          </div>
+          <div class="mySlides3 fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="./img/ecco-shoes9112.jpg" style="width:100%" class="imageslider">
+              <div class="text">
+                <p class="intext">Comfortable shoes perfect for you</p>
+              </div>
+          </div>
+          <a class="prev2" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next2" onclick="plusSlides(1, 2)">&#10095;</a>
+      </div>
+      <p class="introductionslider">Shop for Souvenirs</p>
+          <div class="slideshow-container">
+              <div class="mySlides4 fade">
+                  <div class="numbertext">1 / 2</div>
+                  <div class="text2">
+                    <p class="intext"> Danish Butter Cookies</p>
+                    <p class="textslidershop">Have you actually ever seen a tin of Danish Butter Cookies that contained actual cookies rather than sewing supplies? 
+                      If not, now is your chance! Danish butter cookies simply consist of butter, flour, and sugar. They are so crumbly, they practicallymelt on your tongue as you eat them.</p>
+                    </div>
+                </div>
+                <div class="mySlides4 fade">
+                    <div class="numbertext">2 / 2</div>
+                    <div class="text2">
+                      <p class="intext">Works by Hans Christian Andersen</p>
+                      <p class="textslidershop">H.C. Andersen is without a doubt one of Denmark’s most famous authors and beloved by adults and children alike.
+                        Among others, Andersen is known for fairytales such as The Ugly Duckling, The Little Match Girl, and, of course, The Little Mermaid. So instead of buying a little mermaid snowglobe, 
+                            why not buy the original story? .</p>
+                    </div>
+                </div>
+                <a class="prev3" onclick="plusSlides(-1, 3)">&#10094;</a>
+                <a class="next3" onclick="plusSlides(1, 3)">&#10095;</a>
+            </div>
+            <script> 
+                var slideIndex = [1,1,1,1];
+                var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+                showSlides(1,0);
+                showSlides(1,1);
+                showSlides(1,2);
+                showSlides(1,3);
+                
+                
+                function plusSlides(n, no) {
+                  showSlides(slideIndex[no] += n, no);
+                }
+                
+                function showSlides(n, no) {
+                  var i;
+                  var x = document.getElementsByClassName(slideId[no]);
+                  if (n > x.length) {slideIndex[no] = 1}    
+                  if (n < 1) {slideIndex[no] = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex[no]-1].style.display = "block";  
+                }
+        
+            </script>
+        
+          </body>
+        </html>
